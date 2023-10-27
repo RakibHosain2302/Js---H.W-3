@@ -1,6 +1,11 @@
 
 
 @media (min-width:320px) and (max-width:991px){
+    .hero-section {
+        background-color: #3b5d50;
+        height: 220vh;
+    }
+   
     .hero-cnt h1 {
         font-size: 34px;
         font-weight: 700;
@@ -30,11 +35,7 @@
 }
 
 @media (max-width:851px){
-    .hero-section {
-        background-color: #3b5d50;
-        height: 750px;
-    }
-
+ 
     .hero-cnt h1 {
         font-size: 42px;
         font-weight: 700;
@@ -47,5 +48,5 @@
         margin-top: 15px;
     }
 
-    
+
 }

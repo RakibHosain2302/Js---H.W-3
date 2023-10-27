@@ -3,7 +3,7 @@
 @media (min-width:320px) and (max-width:991px){
     .hero-section {
         background-color: #3b5d50;
-        height: 220vh;
+        height: 145vh;
     }
    
     .hero-cnt h1 {
@@ -34,8 +34,13 @@
     }
 }
 
-@media (max-width:851px){
+@media (min-width:393px){
  
+    .hero-section {
+        background-color: #3b5d50;
+        height: 100vh;
+    }
+
     .hero-cnt h1 {
         font-size: 42px;
         font-weight: 700;
